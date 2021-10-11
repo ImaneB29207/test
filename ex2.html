@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ex2</title>
+    <style type="text/css">
+      header {
+        margin-bottom: 10px;
+      }
+      .head {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo {
+        width: 59px; 
+        height: 60px;
+      }
+      .summary {
+        display: flex;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      li {
+        margin-right: 25px;
+      }
+      footer {
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:13px;  
+        margin-top: 50px;
+      }
+      #content {
+          float:left;
+          width: auto;
+      }
+      #sidebar {
+          float:left;
+          width:auto;
+      }  
+      div.line {
+        width: 1px;
+        height: 120%;
+        float: left;
+        border-right: 2px solid blue ;
+        margin-left: 20px;
+        margin-right: 20px;
+      } 
+      .container {
+        margin: 20px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      } 
+      a{
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="head">
+        <img src="" class="logo" alt="logo"/>
+        <h1>Univeristy Name</h1>
+      </div>
+        <ul class="summary">
+          <li><a href="">Presentation</a></li>
+          <li><a href="">Studies</a></li>
+          <li><a href="">Staff</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+      <div id="content">
+          <strong>News</strong>
+          <br>News 1 - Date
+          <br>Description
+          <br>
+          <br>News 2 - Date
+          <br>Description
+      </div>
+      <div class="line"></div>
+      <div id="sidebar">
+          <strong>Announcement</strong>
+          <br>Open course 1
+          <br>Description
+          <br>
+          <br>Open course 2
+          <br>Description
+      </div>
+    </div>
+
+    <footer>
+      <p>Contact: <a href="">info@university.com</a> <br> (c) University, 2011</p>
+    </footer>     
+  </body>
+</html>
